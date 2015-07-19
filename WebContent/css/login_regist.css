@@ -1,0 +1,139 @@
+.panel_login {
+	float: right;
+	margin: 20px 50px 0 50px;
+	background: #f8f8f8;
+	border: 1px solid #d5d5d5;
+	position: relative;
+	width: 330px;
+	padding: 25px 20px 30px;
+	font-size: 14px;
+}
+
+.panel_regist {
+	float: left;
+	margin: 20px 50px 0 70px ;
+	background: #f8f8f8;
+	border: 1px solid #d5d5d5;
+	position: relative;
+	width: 330px;
+	padding: 25px 20px 30px;
+	font-size: 14px;
+}
+
+.panel-hd {
+	margin: 0 0 10px;
+	line-height: 1.5;
+}
+
+.panel-hd .title {
+	float: left;
+	font-size: 24px;
+	margin: 0;
+}
+
+.panel-bd .form-item {
+	position: relative;
+	margin: 0 0 10px;
+}
+
+.g-btn-submit {
+	background-color: #3199e8;
+	color: #fff;
+}
+
+.g-btn-l {
+	font-size: 18px;
+	width: 280px;
+	height: 42px;
+}
+
+.g-btn {
+	box-sizing: border-box;
+	display: block;
+	border-radius: 2px;
+	border: none;
+	text-align: center;
+}
+
+.panel-bd .form-item .inputbox {
+	padding: 9.5px 10px;
+	height: 42px;
+	width: 280px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.panel-bd .form-item .inputbox_email {
+	padding: 9.5px 10px;
+	height: 42px;
+	width: 180px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.container {
+	margin-left: 50px;
+	margin-right: 50px;
+	min-width: 1100px;
+	padding: 26px 0;
+}
+
+.username-error-tip {
+	font-size: 12px;
+	position: absolute;
+	top: 23px;
+	padding: 4px 7px;
+	background-color: #df4d3f;
+	border-radius: 2px;
+	color: #fff;
+}
+
+.password-error-tip {
+	font-size: 12px;
+	position: absolute;
+	top: 77px;
+	padding: 4px 7px;
+	background-color: #df4d3f;
+	border-radius: 2px;
+	color: #fff;
+}
+.email-error-tip {
+	font-size: 12px;
+	position: absolute;
+	top: 186px;
+	padding: 4px 7px;
+	background-color: #df4d3f;
+	border-radius: 2px;
+	color: #fff;
+}
+.yanzheng-error-tip {
+	font-size: 12px;
+	position: absolute;
+	top: 244px;
+	padding: 4px 7px;
+	background-color: #df4d3f;
+	border-radius: 2px;
+	color: #fff;
+}
+.taste-error-tip {
+	font-size: 12px;
+	position: absolute;
+	top: 243px;
+	padding: 4px 7px;
+	background-color: #df4d3f;
+	border-radius: 2px;
+	color: #fff;
+}
+
+.password_again-error-tip {
+	font-size: 12px;
+	position: absolute;
+	top: 131px;
+	padding: 4px 7px;
+	background-color: #df4d3f;
+	border-radius: 2px;
+	color: #fff;
+}
+
+.hide {
+	display: none;
+}

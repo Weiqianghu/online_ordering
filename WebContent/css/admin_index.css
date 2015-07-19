@@ -1,0 +1,49 @@
+.left_box {
+	position: relative;
+	border-radius: 20px;
+	border: 2px solid #cccccc;
+	width: 200px;
+	panding: 10px;
+	height: 500px;
+	left: 20px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 20px 0 0;
+	text-align:center;
+}
+
+.right_box {
+	position: relative;
+	border-radius: 20px;
+	border: 2px inset #ccdddd;
+	width: 1000px;
+	panding: 20px;
+	height: auto;
+	margin:0 0 0 20px;
+	display:none;
+}
+
+.li {
+	list-style-type: none;
+	font-size: 20px;
+	align: center;
+	margin: 5px 0 5px 0;
+}
+.li:hover {
+background-color:#ffffcc;
+}
+.li a {
+	cursor: pointer;
+}
+.change_button {
+background-color:#33ccff;
+width:70px;
+heigth:45px;
+border:none;
+}
+.delete_button {
+background-color:#ff6666;
+width:70px;
+heigth:45px;
+border:none;
+}
