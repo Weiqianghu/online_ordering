@@ -10,8 +10,8 @@
     <location>/404</location>
   </error-page>
   <welcome-file-list>
-    <welcome-file>SelectStoreServlet</welcome-file>
-    <welcome-file>index.html</welcome-file>
+    <welcome-file>myHomePage.html</welcome-file>
+     <welcome-file>SelectStoreServlet</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>default.html</welcome-file>
@@ -40,4 +40,14 @@
     <filter-name>SetCharacterEncodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+   <servlet>
+    <description></description>
+    <display-name>MailSendServlet</display-name>
+    <servlet-name>MailSendServlet</servlet-name>
+    <servlet-class>mail.MailSendServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MailSendServlet</servlet-name>
+    <url-pattern>/MailSendServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
